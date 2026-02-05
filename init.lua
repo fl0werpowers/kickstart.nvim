@@ -919,9 +919,7 @@ require('lazy').setup({
   },
 })
 
-if vim.g.neovide then
-  vim.o.guifont = 'IosevkaTerm Nerd Font:h12'
-end
+if vim.g.neovide then vim.o.guifont = 'IosevkaTerm Nerd Font:h12' end
 
 vim.o.expandtab = false
 vim.o.tabstop = 4
